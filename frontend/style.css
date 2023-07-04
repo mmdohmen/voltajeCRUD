@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#usuario {
+    font-style: oblique;
+    color: white;
+    margin-left: 97px;
+}
+
+h1{
+    text-align: center;
+}
+
+table {
+    background-color: #C4B0FF;
+    text-align: center;
+}
+
+#voltaje {
+    width: 34vw;
+    padding-top: 9px;
+    padding-right: 18px;
+}
+
+a, section, button{
+    margin-left: 10px;
+}
+
+thead, tbody {
+    border: 3px solid black;
+}
+
+
+.funkos:hover {   
+    cursor: pointer;
+}
+
+.funkos:active { 
+    transform: scale(4.5);
+    transition: 0.3s;
+}
